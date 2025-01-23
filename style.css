@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #344e41;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* color: #E9EDDE; */
+}
+
+.game{
+    display: grid;
+    max-height: 100vh;
+    max-width: 70vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 5px;
+    
+}
+
+.box{
+    margin: 0;
+    padding: 0;
+    height: 25vh;
+    width: 23vw;
+    font-size: 80px;
+    background-color: #a3b18a;
+    /* color: #3a5a40; */
+    border-radius: 1rem;
+    border: none;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    background-color:#3D3B30 ;
+    color: #E9EDDE;
+    border-radius: 1rem;
+}
+.msg-win p{
+font-size: 70px;
+color: #dad7cd;
+}
+.nxt-game{
+    padding: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    background-color:#3D3B30 ;
+    color: #E9EDDE;
+    border-radius: 1rem;
+  
+}
+
+.msg-win{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.hide{
+    display: none;
+ }
